@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Image,ImageBackground } from 'react-native';
+import Card from 'src/components/Card'
 
 const App = () =>{
   return (
     <View style={styles.pageContainer}>
+      <Card/>
       <View style={styles.card}>
         <ImageBackground source={{
           uri:'https://www.tortilla.co.uk/wp-content/uploads/2017/11/505-x-404-Images_0011_Russell-Square-.png'
